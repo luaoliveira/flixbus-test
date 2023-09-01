@@ -12,6 +12,7 @@ This project creates an API that returns a Fibonacci number for a given number p
 * Gunicorn
 * Docker
 * Makefile
+* Flasgger
 
 ### Installation
 
@@ -76,3 +77,9 @@ pytest -v
 ```
 
 *-v* is to visualize which tests passed and failed
+
+### Documentation
+
+The documentation was generated using Flasgger package and extension. The documentation page is available once the API is running and it can be accessed under the endpoint `/apidocs` through the url below:
+
+*http://127.0.0.0:5000/apidocs*
